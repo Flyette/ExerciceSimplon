@@ -1,8 +1,58 @@
 body {
-	margin-top:3em;
+
+	 background-image: url(../images/toulouse.JPG); 
+
+	 background-repeat: no-repeat;
+	 margin: 0 auto;
+	 background-size: 1600px 900px;
 }
-.container {
-	width:940px;
-	margin-left: auto;
-	margin-right:auto;
+
+
+#menu ul {
+	height: 50px;
+	background-color: #525252;
+	margin-bottom: 30px;
+	padding-top: 27px;
+	font-size: 18px;
+}
+#menu ul li {
+	display:inline;
+	margin-right: 20px;
+	list-style-type: none;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color:white;
+}
+
+#menu ul li a:hover {
+	color:grey;
+}
+h1 {
+	font-size: 40px;
+	color: white;
+}
+#bouton a{
+
+position: relative;
+background-color:red;
+border: none;
+border-radius:50%;
+text-decoration : none;
+width:980px;
+height:980px;
+}
+#bouton ul li a {
+	text-decoration: none;
+	color: white;
+}
+#bouton ul li a:hover {
+	color: grey;
+
+}
+#bouton ul li {
+	display: inline;
+	margin: auto;
+	list-style-type: none;
 }
