@@ -1,8 +1,66 @@
 body {
-	margin-top:3em;
+    margin: 0;
 }
-.container {
-	width:940px;
-	margin-left: auto;
-	margin-right:auto;
+
+#section1 {
+	
+	position: relative;
+	background: url(simplon_retouche.jpg) center top no-repeat;
+
+    height: 850px;
+   
+}
+
+.header {
+    background-color: #607D8B;
+    width: 100%;
+    height: 80px;
+    opacity: 0.7;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#titre {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 90px;
+    font-family: 'Questrial', sans-serif;
+}
+
+#presentation {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+
+    letter-spacing: 4px;
+     
+    }
+    
+#tweeter {
+    width: 340px;
+    height: 80px;
+    background-color: black;
+    opacity: 0.5;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+#section2 {
+    height: 450px;
+    background-color: lightgrey;
+}
+
+#boutton1, #boutton2, #boutton3 {
+    
+    position: relative;
+     height: 280px;
+    width: 280px;
+    border-radius: 100%;
+    border: 2px solid black;
+    display: inline-block;
+    top: 70px;
+    margin-left: 100px;
 }
