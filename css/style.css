@@ -1,0 +1,126 @@
+body {
+<<<<<<< HEAD
+    margin: 0;
+}
+
+#section1 {
+	
+	position: relative;
+	background: url(simplon_retouche.jpg) center top no-repeat;
+
+    height: 850px;
+   
+}
+
+.header {
+    background-color: #607D8B;
+    width: 100%;
+    height: 80px;
+    opacity: 0.7;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#titre {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 90px;
+    font-family: 'Questrial', sans-serif;
+}
+
+#presentation {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+
+    letter-spacing: 4px;
+     
+    }
+    
+#tweeter {
+    width: 340px;
+    height: 80px;
+    background-color: black;
+    opacity: 0.5;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+#section2 {
+    height: 450px;
+    background-color: lightgrey;
+}
+
+#boutton1, #boutton2, #boutton3 {
+    
+    position: relative;
+     height: 280px;
+    width: 280px;
+    border-radius: 100%;
+    border: 2px solid black;
+    display: inline-block;
+    top: 70px;
+    margin-left: 100px;
+}
+=======
+
+	 background-image: url(../images/toulouse.JPG); 
+
+	 background-repeat: no-repeat;
+	 margin: 0 auto;
+	 background-size: 1600px 900px;
+}
+
+
+#menu ul {
+	height: 50px;
+	background-color: #525252;
+	margin-bottom: 30px;
+	padding-top: 27px;
+	font-size: 18px;
+}
+#menu ul li {
+	display:inline;
+	margin-right: 20px;
+	list-style-type: none;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color:white;
+}
+
+#menu ul li a:hover {
+	color:grey;
+}
+h1 {
+	font-size: 40px;
+	color: white;
+}
+#bouton a{
+
+position: relative;
+background-color:red;
+border: none;
+border-radius:50%;
+text-decoration : none;
+width:980px;
+height:980px;
+}
+#bouton ul li a {
+	text-decoration: none;
+	color: white;
+}
+#bouton ul li a:hover {
+	color: grey;
+
+}
+#bouton ul li {
+	display: inline;
+	margin: auto;
+	list-style-type: none;
+}
+>>>>>>> origin/master
